@@ -1,0 +1,161 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 155px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+    
+}
+
+#searchInput {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     width: 400px; /* Adju   margin-right: 500px;
+st as needed */
+     background-color: #e6e5ff
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+       margin-right: 370px;
+
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+s
+
+
+
+
+
+
+.img-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  border: 40px solid white;
+  border-radius: 10px;
+  background-color: #ffffff;
+  
+
+.car-image {
+height: 100px;
+width: 110px;
+}
+
+/* styles.css */
+
+/* Styles for slideshow container */
+.slideshow-container {
+  position: relative;
+  max-width: 800px; 
+  margin: auto;
+  width: 100px; 
+  height: 180px; /* Maintain aspect ratio */
+}
+
+/* Styles for slides */
+.slide {
+  display: none;
+}
+.slide img {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Navigation arrows */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px; /* Center vertically */
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+
+/*  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    flex: 1 0 calc(16.666% - 10px);  Six boxes per row with gap 
+    margin: 5px;  Gap between boxes 
+    padding: 50px;
+    height: 180px;
+    border: 200px solid white;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;  Ensure padding and border are included in width calculation 
+  }
+
+   Differentiate row-wise 
+  .box:nth-child(6n+1),
+  .box:nth-child(6n+2),
+  .box:nth-child(6n+3),
+  .box:nth-child(6n+4),
+  .box:nth-child(6n+5),
+  .box:nth-child(6n+6) {
+    background-color: #e0e0e0;  Alternate background color for each row 
+  }
+  */
+
+
